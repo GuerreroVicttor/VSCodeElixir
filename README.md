@@ -1,4 +1,4 @@
-## My configuration: Visual Studio Code and Elixir
+## My configuration: Visual Studio Code & Elixir
 
 ### Font
 
