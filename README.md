@@ -8,6 +8,7 @@
 ### Plugins
 
 * ElixirLS: Elixir support and debugger
+* Elixir Templates Formatter
 * EEx snippets
 * Dark+ Elixir
 * Beautify
@@ -39,7 +40,7 @@
     "files.associations": {
         "*.ex": "elixir",
         "*.exs": "elixir",
-        "*.eex": "html-eex",
+        "*.eex": "eex",
         "*.leex": "html-eex",
         "*.html.EEx": "html-eex"
     },
