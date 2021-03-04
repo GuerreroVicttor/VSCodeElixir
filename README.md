@@ -17,9 +17,9 @@
 ### Settings
 ```json
 {
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 2,
     "editor.cursorBlinking": "smooth",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "vscode-icons",
     "editor.suggestSelection": "first",
     "workbench.colorTheme": "dark+(elixir)",
     "editor.cursorStyle": "line",
@@ -42,17 +42,23 @@
         "*.exs": "elixir",
         "*.eex": "eex",
         "*.leex": "html-eex",
-        "*.html.EEx": "html-eex"
+        "*.html.eex": "html"
     },
     "[html-eex]": {
         "editor.trimAutoWhitespace": false,
         "files.trimTrailingWhitespace": true,
         "files.insertFinalNewline": true,
-        "files.trimFinalNewlines": true
+        "files.trimFinalNewlines": true,
+        "editor.defaultFormatter": "HookyQR.beautify" // EXTENSION: Beautify
     },
     "emmet.includeLanguages": {
         "html-eex": "html"
     },
+    "vscode-eex-format.tabStops": 2,
+    "vscode-eex-format.tab": false,
+    "vscode-eex-format.indentBy": 0,
+    "vscode-eex-format.stopOnErrors": false,
+    "vscode-eex-format.keepBlankLines": 0,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorWidth": 2,
     "terminal.integrated.cursorBlinking": true
