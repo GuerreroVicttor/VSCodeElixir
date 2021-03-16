@@ -42,7 +42,7 @@
         "*.exs": "elixir",
         "*.eex": "eex",
         "*.leex": "html-eex",
-        "*.html.eex": "html"
+        "*.html.eex": "html-eex"
     },
     "[html-eex]": {
         "editor.trimAutoWhitespace": false,
